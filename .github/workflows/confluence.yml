@@ -1,0 +1,17 @@
+name: Publish to Confluence
+on: push
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Publish Markdown to Confluence
+        uses: markdown-confluence/publish@v1
+        with:
+          confluenceBaseUrl: https://your-confluence-instance-url
+          confluenceParentId: 123456
+          atlassianUserName: harry@askporter.com
+          atlassianApiToken: ATATT3xFfGF0gEtJ7kPKS9I37Wv06qqY-OHy0xbwT9UMxYJdlrHDaRgTNsfFp-xxBAs2CGyxHTEG1jdy8Z_1Jubo1YyJKvjFurpDRbiTYR-DqTMu_dU1j9XXy2szsJxsWqm10_cFXJ7azsoteM4iyWHeeG1UFFJRbJ4wiHTFI419ZQs-KVhXD1s=62C99044
