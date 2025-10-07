@@ -11,6 +11,7 @@ jobs:
       - name: Publish Markdown to Confluence
         uses: markdown-confluence/publish@v1
         with:
+          configFile: .markdown-confluence.json
           confluenceBaseUrl: https://your-confluence-instance-url
           confluenceParentId: 123456
           atlassianUserName: harry@askporter.com
