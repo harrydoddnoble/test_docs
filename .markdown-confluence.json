@@ -1,5 +1,5 @@
 {
-  "confluenceBaseUrl": "https://askproducts.atlassian.net",
+  "confluenceBaseUrl": "https://askproducts.atlassian.net/wiki/spaces/AIK",
   "confluenceParentId": "3201665041",
   "atlassianUserName": "harry@askporter.com",
   "folderToPublish": "./docs",
