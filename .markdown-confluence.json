@@ -1,5 +1,5 @@
 {
-  "confluenceBaseUrl": "https://askproducts.atlassian.net/wiki/rest/api/",
+  "confluenceBaseUrl": "https://askproducts.atlassian.net/wiki",
   "confluenceParentId": "3201728759",
   "atlassianUserName": "harry@askporter.com",
   "folderToPublish": "./docs",
