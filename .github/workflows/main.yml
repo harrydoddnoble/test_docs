@@ -1,5 +1,4 @@
-
-name: Publish
+name: PublishConfluenceDocs
 
 on:
   push:
