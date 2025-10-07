@@ -15,4 +15,4 @@ jobs:
           confluenceBaseUrl: https://your-confluence-instance-url
           confluenceParentId: 123456
           atlassianUserName: harry@askporter.com
-          atlassianApiToken: ${{ secrets.CONFLUENCE_PASSWORD }}
+          atlassianApiToken: ${{ secrets.confluence_password }}
