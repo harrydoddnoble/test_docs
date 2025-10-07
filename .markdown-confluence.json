@@ -2,6 +2,6 @@
   "confluenceBaseUrl": "https://askproducts.atlassian.net/wiki/rest/api/",
   "confluenceParentId": "3201728759",
   "atlassianUserName": "harry@askporter.com",
-  "folderToPublish": "docs",
-  "contentRoot": "/docs"
+  "folderToPublish": "./docs",
+  "contentRoot": "./docs"
 }
